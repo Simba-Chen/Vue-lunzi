@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Simba-Chen/Vue-lunzi/issues"
   },
-  "homepage": "https://github.com/Simba-Chen/Vue-lunzi#readme"
+  "homepage": "https://github.com/Simba-Chen/Vue-lunzi#readme",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
 }
