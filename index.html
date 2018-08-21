@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vue轮子</title>
     <link rel="stylesheet" href="./common.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+
 </head>
+
 <body>
     <div id="app">
-        <v-button></v-button>
+        <v-button>
+            按钮
+        </v-button>
+        <v-button icon="settings">
+            按钮
+        </v-button>
+        <v-button icon="settings" icon-position="right">
+            按钮
+        </v-button>
     </div>
     <script src="./src/app.js"></script>
+    <script src="//at.alicdn.com/t/font_802931_usa4fij2gci.js"></script>
 </body>
+
 </html>
