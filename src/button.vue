@@ -1,12 +1,10 @@
 <template>
-    <button class="v-button" v-bind:class="{[`icon-${iconPosition}`]:true}">
-      <svg v-if="icon" class="icon" aria-hidden="true">
-        <use v-bind:xlink:href="`#icon-${icon}`"></use>
-      </svg>
-      <div class="content">
-        <slot></slot>
-      </div>
-    </button>
+  <button class="v-button" v-bind:class="{[`icon-${iconPosition}`]:true}">
+    <v-icon v-if="icon" v-bind:name="icon" class="icon"></v-icon>
+    <div class="content">
+      <slot></slot>
+    </div>
+  </button>
 </template>
 <script>
 export default {
